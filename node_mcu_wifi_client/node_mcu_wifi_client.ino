@@ -15,7 +15,7 @@ void setup() {
 
   Serial.println();
   Serial.println();
-  Serial.print("Conectando com");
+  Serial.print("Conectando com ");
   Serial.println(ssid);
   
   WiFi.mode(WIFI_STA);
@@ -61,7 +61,7 @@ void loop() {
   url += "&sensor3=";
   url += sensor3;
   
-  Serial.print("Rquisitando URL: ");
+  Serial.print("Requisitando URL: ");
   Serial.println(url);
   
   // Envia a requisição para o servidor
